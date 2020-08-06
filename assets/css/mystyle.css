@@ -1,0 +1,160 @@
+.img__logo{
+    min-width: 120px;
+    min-height: 95px;
+}
+
+.mind__motivation{
+    width: 200px;
+
+}
+
+
+.custom__tabs__section{
+background-color: #029ACB;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    /* border-top-right-radius: .25rem; */
+    color: white;
+}
+
+#home__section{
+    background-image: url('../images/slider1.jpg');   
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    min-height: 700px;
+    position: relative;
+    
+}
+
+#home__section .home__inner{
+    max-width: 40%;
+    padding: 62px;
+    margin-top: 110px;
+}
+#home__section .main__home{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    min-height: 700px;
+}
+
+.home__inner h5{
+    color: white;
+    font-size: 33px;
+    font-weight: bolder;
+}
+
+.home__inner p{
+    color:#cecece ;
+    
+   
+}
+
+
+
+.home__content__inner{
+    margin-top: 250px;
+}
+
+.custom__caption{
+    margin-bottom: 300px;
+}
+
+
+
+/* products */
+
+.main {
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+   
+   
+    
+}
+.main img{
+    border-radius: 20px;
+}
+.title{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 300px;
+    color: white;
+    font-size: 19px;
+    font-weight: lighter;
+    border-radius: 20px 0px;
+    
+    
+    
+}
+
+
+
+
+.main .overlay .product__text{
+    padding: 10px;
+    font-size: 18px;
+   
+    color: white
+}
+.main .overlay{
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 20px;
+    
+}
+.main:hover .title{
+    opacity : 0;
+}
+
+.main:hover .title__category{
+    opacity : 0;
+}
+
+  
+.main:hover .overlay{
+opacity: 0.8
+}
+
+.main .overlay .btn__custom{
+    background-color: rgba(130,168,42);
+    
+    /* background: #82A82A; */
+    border-radius: 40px;
+    border: 0px;
+    color: white;
+    padding: 10px;
+}
+
+/* category */
+
+.category__text{
+    color: white;
+}
+
+.title__category{
+    background: black;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 300px;
+    color: white;
+       
+}
+
+.main__content p{
+    font-size: 18px;
+}

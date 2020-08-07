@@ -127,7 +127,7 @@ background-color: #029ACB;
   
 .main:hover .overlay{
 opacity: 0.8;
-transition: 0.8s;
+transition: linear all 1s;
 }
 
 .main .overlay .btn__custom{

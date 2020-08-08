@@ -21,13 +21,13 @@ background-color: #029ACB;
 }
 
 #home__section{
-    background-image: url('../images/slider1.jpg');   
+    background-image: url('../images/slider1.jpg');
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     background-attachment: fixed;
     min-height: 700px;
     position: relative;
-    
+
 }
 
 #home__section .home__inner{
@@ -51,8 +51,8 @@ background-color: #029ACB;
 
 .home__inner p{
     color:#cecece ;
-    
-   
+
+
 }
 
 
@@ -73,9 +73,9 @@ background-color: #029ACB;
     position: relative;
     width: 100%;
     border-radius: 50%;
-   
-   
-    
+
+
+
 }
 .main img{
     border-radius: 20px;
@@ -90,9 +90,9 @@ background-color: #029ACB;
     font-size: 19px;
     font-weight: lighter;
     border-radius: 20px 0px;
-    
-    
-    
+
+
+
 }
 
 
@@ -101,7 +101,7 @@ background-color: #029ACB;
 .main .overlay .product__text{
     padding: 10px;
     font-size: 18px;
-   
+
     color: white
 }
 .main .overlay{
@@ -114,8 +114,8 @@ background-color: #029ACB;
     left: 0;
     display: block;
     border-radius: 20px;
-    transition: linear all 0.8s;
-    
+    transition: linear all 0.5s;
+
 }
 .main:hover .title{
     opacity : 0;
@@ -125,27 +125,29 @@ background-color: #029ACB;
     opacity : 0;
 }
 
-  
+
 .main:hover .overlay{
 opacity: 0.8;
 
 }
 
 .main .overlay .btn__custom{
-    background-color: rgba(130,168,42);
-    
-    /* background: #82A82A; */
+    background-color: rgb(130,168,42);
+
+
+    filter:alpha(opacity=30);
     border-radius: 40px;
     border: 0px;
     color: white;
     padding: 10px;
+    font-weight: bold;
+    opacity: 1;
 }
-
 
 .custom__main{
     border: 1px solid #cecece;
     border-radius: 20px;
-   
+
 }
 
 .custom__main:hover{
@@ -168,11 +170,11 @@ opacity: 0.8;
     font-size: 19px;
     font-weight: lighter;
     border-radius: 20px 20px 0px 0px;
-    
-    
-    
-    
-       
+
+
+
+
+
 }
 
 .main__content p{
@@ -185,5 +187,15 @@ opacity: 0.8;
     width: 100%;
     /* max-width: 100%; */
     max-height: 232px;
-    
+
+}
+
+.footer__logo .footer__img{
+    max-width: 200px !important;
+}
+footer [class*="main-wrapper"] {
+    padding: 0 0 !important;
+}
+.mind__motivation {
+    width: 170px;
 }

@@ -31,7 +31,7 @@ background-color: #029ACB;
 }
 
 #home__section .home__inner{
-    
+
     padding: 62px;
     margin-top: 110px;
 }
@@ -213,6 +213,9 @@ footer [class*="main-wrapper"] {
     height: 80%;
     color: black;
   }
+  html {
+    scroll-behavior: smooth;
+  }
 
   #section01 a span {
     position: absolute;
@@ -227,5 +230,4 @@ footer [class*="main-wrapper"] {
     transform: rotate(-45deg);
     box-sizing: border-box;
   }
-  
-  
+

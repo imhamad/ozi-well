@@ -29,6 +29,13 @@ background-color: #029ACB;
     position: relative;
 
 }
+.home__inner h5{
+    color: white;
+    font-size: 33px;
+    font-weight: bolder;
+}
+
+
 
 #home__section .home__inner{
 
@@ -43,11 +50,6 @@ background-color: #029ACB;
     min-height: 700px;
 }
 
-.home__inner h5{
-    color: white;
-    font-size: 33px;
-    font-weight: bolder;
-}
 
 
 
@@ -231,3 +233,40 @@ footer [class*="main-wrapper"] {
     box-sizing: border-box;
   }
 
+
+  @media screen and (max-width:768px){
+    #home__section{
+        background-image: url('../images/slider1.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: scroll;
+        min-height: 450px;
+        position: relative;
+
+    }
+    .home__inner h5 {
+        color: white;
+        font-size: 18px;
+        font-weight: lighter;
+        min-width: 80%;
+        text-align: left;
+
+    }
+    #home__section .main__home {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,0.4);
+        min-height: 450px;
+    }
+    .img__logo{
+        min-width: 110px;
+        min-height: 80px;
+    }
+
+    .mind__motivation{
+        width: 165px;
+
+    }
+
+}

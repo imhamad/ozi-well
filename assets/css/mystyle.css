@@ -23,7 +23,7 @@ background-color: #029ACB;
 #home__section{
     background-image: url('../images/slider1.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
     min-height: 700px;
     position: relative;
@@ -31,7 +31,7 @@ background-color: #029ACB;
 }
 
 #home__section .home__inner{
-    max-width: 40%;
+    
     padding: 62px;
     margin-top: 110px;
 }
@@ -49,11 +49,6 @@ background-color: #029ACB;
     font-weight: bolder;
 }
 
-.home__inner p{
-    color:#cecece ;
-
-
-}
 
 
 
@@ -73,6 +68,7 @@ background-color: #029ACB;
     position: relative;
     width: 100%;
     border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
 
 
 
@@ -101,6 +97,7 @@ background-color: #029ACB;
 .main .overlay .product__text{
     padding: 10px;
     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 
     color: white
 }
@@ -199,3 +196,36 @@ footer [class*="main-wrapper"] {
 .mind__motivation {
     width: 170px;
 }
+
+
+#section01 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    { background: url(https://picsum.photos/1200/800?image=575) center center / cover no-repeat;}
+  }
+  #section01::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 80%;
+    color: black;
+  }
+
+  #section01 a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+  }
+  
+  

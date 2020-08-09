@@ -277,3 +277,9 @@ footer [class*="main-wrapper"] {
     flex: 0 0 100%;
     max-width: 108%;
 }
+
+
+.category__button{
+    background-color: #cecece;
+    width: 100%;
+}
